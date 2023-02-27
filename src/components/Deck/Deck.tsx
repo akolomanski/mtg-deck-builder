@@ -1,7 +1,7 @@
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { Color, Filters, MagicCard } from "../../types/mtg-api";
 import { toggleColor } from "../../store/slices/filtersSlice";
-import './styles.scss'
+
 import { removeCard } from "../../store/slices/deckSlice";
 
 export default function FilterBar() {
