@@ -25,7 +25,7 @@ export default function useFetch(page: number) {
       try {
         const response = await fetchWithTimeout(
           `https://api.magicthegathering.io/v1/cards?set=RTR&page=${page}`,
-          20000
+          500
         )
 
         if (!response.ok) {
