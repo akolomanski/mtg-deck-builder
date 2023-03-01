@@ -14,8 +14,8 @@ function CardList({card}: Props) {
   };
 
   return (
-    <div className="p-1">
-      <img onClick={()=>addCardHandler()} className="card__image hover:brightness-50 rounded-xl" src={card.imageUrl}/>
+    <div className="m-1 w-[223px] h-[310px]">
+      <img onClick={()=>addCardHandler()} className="hover:brightness-50 rounded-xl" src={card.imageUrl}/>
     </div>
   )
 }
