@@ -22,7 +22,7 @@ This is a Magic: The Gathering (MTG) deck builder built with Vite, React, TypeSc
 1. Clone the repository
 2. Install dependencies with `yarn install`
 3. Run the development server with `yarn dev`
-4. Open [http://localhost:5176](http://localhost:5176) in a web browser
+4. Open [http://localhost:5173](http://localhost:5173) in a web browser
 
 ## Contributing
 
