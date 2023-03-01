@@ -30,6 +30,8 @@ function App() {
 
     return filterCards(data, filters);
   }, [data, filters]);
+  
+  const shouldRenderLoadMoreButton = !end && !loading;
 
   return (
     <div className="App">
@@ -41,7 +43,7 @@ function App() {
 
           {loading && <Loader />}
 
-          {!end && !loading && (
+          {shouldRenderLoadMoreButton && (
             <button onClick={() => setPage(page + 1)} className="btn">Load more</button>
           )}
         </div>
